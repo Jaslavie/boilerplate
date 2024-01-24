@@ -1,5 +1,5 @@
 //* Here, I will return all of the commonly used components so its easy to view
-import "./App.scss";
+import "./App.sass";
 import Nav from "./components/Nav";
 
 function App() {
@@ -13,6 +13,10 @@ function App() {
             <div>asdf</div>
             <div>asdf</div>
           </div>
+          {/* Sign up  */}
+          <button className="primary">Sign up</button>
+          {/* Log in */}
+          <button className="secondary">Log in </button>
         </div>
       </section>
     </>

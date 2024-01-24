@@ -52,6 +52,22 @@ https://sass-lang.com/guide/#:~:text=CSS%20on%20its%20own%20can,you%20write%20ro
 ```
 npm install sass
 ```
+
+## Fade in animation (generic)
+in terminal
+```
+npm install react-reveal --force
+```
+in component file
+```
+import Fade from "react-reveal/Fade";
+```
+passing it into a component
+```
+<Fade bottom delay={200}>
+            content
+</Fade>
+```
 ## Other random git commands that I keep needing to search up
 to check what repo you're in:
 ```
